@@ -29,20 +29,20 @@ Here is a test dog.
     - Select `JUnit4`
         - This sets the Java testing libraries.
 
-1. Project name : `projectName`
-You will then be prompted for the name of your source package. Name accordingly.
+    - Project name : `<project-name>`
+        - The name of the project.
+    -  Source package : `<source-project-name>`
+        - Package names *must* be all lowercase and use dots instead of underscores, hypens, etc
+         - Example:
+            - `source.package`
 
-1. Source package : `projectName`
 
+# Using `System.in`
+Gradle does not define a default input stream. That is, if you want to make use of `System.in`, you have to tell Gradle to do so within the `build.gradle` file.
 
-# Quick Fix
-A weird thing about Gradle is that there is no default input stream. That's weird. But we can amend this minor setback by opening up the build.gradle file into a text editor.
+From the project's root directory, open your build file, `build.gradle`, in a text editor. 
 
-1. cd into your new project, `cd projectName`
-1. `ls`. You should see several generated files, but the one we are going to look at is `build.gradle`.
-1. open your build.gradle file into a text editor. I'm going to use nano because I feel like it : ) `nano build.gradle`
-
-Within this file, you should see the plugins, repositories and dependencies sections, as well as the main class name.
+Within this file, you will see the plugins, repositories and dependencies sections, as well as the main class name.
 You need to add the following lines to this file so your project will know that it may need to take input:
 
 ```
