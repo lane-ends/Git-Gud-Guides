@@ -1,33 +1,33 @@
-# Gradle Project Setup Tutorial
+# Gradle Project Setup Tutorial With Gradle 6.1
 
 You will be creating a Java application using Gradle build system that you can then open in Netbeans.
-
-# Creating your homework directory
+Here is a test dog. 
+![dog image](https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/09/dog-landing-hero-lg.jpg?bust=1536935129&width=1080)
 
 1. Open up a terminal on your desktop
 1. `ls` to list the files in your working directory
-1. cd into your repo, `cd firstname.lastname`
-1. `cd cs313/sp20` 
-1. cd into your programs directory, `cd programs`
-1. `mkdir hw--` , where -- represents the assignment number.
-1. `cd hw--`
+1. `cd` into the directory you want the Gradle app to be in
+1. Make a directory for your Gradle project
+    - Example: `mkdir gradleProject` 
+1. `cd` into your new directory
 
 # Get the Gradle Going
+1. Inside of the directory: 
+    - Run `gradle init` 
+        - This initializes the Gradle project.
 
-1. Inside of the hw-- directory, `gradle init` to initialize gradle
-This will prompt you for what kind of project to generate. 
+1.  Further Prompts
+    1. Select `application`
+        - This will create your project.
 
-1. Select `application (2)`
-This will prompt you for what language to use.
+    1. Select `Java`
+        - This is the language your project will use.
 
-1. Select `Java (3)`
-This will prompt you for the build script DSL.
+    - Select `Groovy`
+        - This is the Gradle DSL.
 
-1. Select `Groovy (1)` or hit enter.
-This will prompt you for the test framework.
-
-1. Select `JUnit4 (1)` or hit enter.
-You will then be prompted for the project name. Name accordingly.
+    - Select `JUnit4`
+        - This sets the Java testing libraries.
 
 1. Project name : `projectName`
 You will then be prompted for the name of your source package. Name accordingly.
