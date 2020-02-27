@@ -42,30 +42,28 @@ Gradle does not define a default input stream. That is, if you want to make use 
 
 From the project's root directory, open your build file, `build.gradle`, in a text editor. 
 
-Within this file, you will see the plugins, repositories and dependencies sections, as well as the main class name.
-You need to add the following lines to this file so your project will know that it may need to take input:
+Add the following lines to this file so Gradle will know that it may need to take input:
 
 ```
 run{
     standardInput = System.in
 }
 ```
+Save and close your text editor.
+# Build
+To build your project,
+make sure you are in your project directory. 
 
-That's all you need for that, so save and close your text editor.
-# Build!
-Yay, it exists! Now you're going to build the project. 
-Make sure you are in your projectName directory. 
-
-1. `./gradlew build` .
-After your project has built, check your tasks to see what else you can do with your application.
+1. Run `./gradlew build` .
+    - After your project has built, check your tasks to see what else you can do with your application.
 You should see a task called `run`.
 
-1. `./gradlew run`
+1. Run `./gradlew run`
+    - To tell Gradle to print less information every time it runs, use
+      - `./gradlew run -q --console=plain`
 
 If you get a Hello world, then you are successful!
 
-You can open this project in Netbeans and begin your homework.
-Good luck :)
 
 
 
