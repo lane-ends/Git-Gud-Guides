@@ -64,6 +64,9 @@ You should see a task called `run`.
 
 If you get a Hello world, then you are successful!
 
+Resulting Project Structure
+-
+![gradle picture](https://i.imgur.com/bv16Ndz.png)
 
 
 
