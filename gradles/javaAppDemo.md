@@ -2,7 +2,7 @@
 
 You will be creating a Java application using Gradle build system that you can then open in Netbeans.
 Here is a test dog. 
-![dog image](https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/09/dog-landing-hero-lg.jpg?bust=1536935129&width=1080)
+
 
 1. Open up a terminal on your desktop
 1. `ls` to list the files in your working directory
