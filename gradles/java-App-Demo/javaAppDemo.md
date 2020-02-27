@@ -66,7 +66,7 @@ If you get a Hello world, then you are successful!
 
 Resulting Project Structure
 -
-![gradle picture](https://i.imgur.com/bv16Ndz.png)
+![gradle picture](https://i.imgur.com/bv16NdZ.png)
 
 
 
